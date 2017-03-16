@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:src="@drawable/sunny"
+               android:id="@+id/weather_icon"
+    />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="12.07.2017"
+              android:textAlignment="center"
+              android:layout_below="@id/weather_icon"
+              android:layout_marginTop="5dp"
+              android:textColor="@color/text"
+              android:id="@+id/date"/>
+
+
+</RelativeLayout>

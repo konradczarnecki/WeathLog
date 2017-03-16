@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="k.weathlog.FiveDayForecastFragment">
+
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="0px"
+                 android:layout_weight="1"
+                 android:id="@+id/day_1">
+
+    </FrameLayout>
+
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="0px"
+                 android:layout_weight="1"
+                 android:id="@+id/day_2">
+
+    </FrameLayout>
+
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="0px"
+                 android:layout_weight="1"
+                 android:id="@+id/day_3">
+
+    </FrameLayout>
+
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="0px"
+                 android:layout_weight="1"
+                 android:id="@+id/day_4">
+
+    </FrameLayout>
+
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="0px"
+                 android:layout_weight="1"
+                 android:id="@+id/day_5">
+
+    </FrameLayout>
+
+
+</LinearLayout>

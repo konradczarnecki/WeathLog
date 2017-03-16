@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="k.weathlog.ManualLocationFragment">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text"
+            android:id="@+id/no_location_info"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:text="Can't get location. Please enter your coordinates."/>
+
+    <RelativeLayout android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/no_location_info"
+                    android:layout_centerHorizontal="true"
+    >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text"
+                android:id="@+id/latitude"
+                android:text="Latitude:"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+        />
+
+        <EditText android:layout_width="50dp"
+                  android:layout_height="wrap_content"
+                  android:layout_toRightOf="@id/latitude"
+                  android:id="@+id/lat_text"
+                  android:textSize="12sp"
+        />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text"
+                android:id="@+id/longitude"
+                android:text="Longitude:"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/lat_text"
+        />
+
+        <EditText android:layout_width="50dp"
+                  android:layout_height="wrap_content"
+                  android:layout_toRightOf="@id/longitude"
+                  android:id="@+id/lon_text"
+                  android:textSize="12sp"
+        />
+
+        <ImageView android:layout_width="25dp"
+                   android:layout_height="25dp"
+                   android:src="@drawable/ok"
+                   android:layout_toRightOf="@id/lon_text"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginTop="5dp"
+                   android:id="@+id/accept_location_button"
+        />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_weather_log"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="25dp"
+        android:paddingBottom="0dp"
+        android:background="@drawable/back"
+        tools:context="k.weathlog.WeatherLogActivity">
+
+    <GridView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnWidth="80dp"
+            android:horizontalSpacing="5dp"
+            android:verticalSpacing="10dp"
+            android:numColumns="auto_fit"
+            android:stretchMode="spacingWidth"
+            android:id="@+id/weather_log_gv"
+            android:gravity="center"
+            android:padding="5dp"
+    />
+
+</RelativeLayout>
